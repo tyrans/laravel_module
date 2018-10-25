@@ -4,7 +4,7 @@
 ### 创建模块：
 你可以通过在终端中运行 `create-project` 命令来创建一个 `ProductModule`：
 ```php
-composer create-project --prefer-dist tyrans/t_module ProductModule
+composer create-project --prefer-dist tyrans/laravel_module ProductModule
 ```
 项目创建完成后需要对项目 `composer.json` 文件进行初始化配置：
 ```text
