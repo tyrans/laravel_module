@@ -1,0 +1,32 @@
+{
+    "name": "tyrans/laravel_module",
+    "description": "The Laravel Framework Modules.",
+    "keywords": ["modules", "framework", "laravel"],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0",
+        "tyrans/laravel_framework": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Module\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+            ]
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

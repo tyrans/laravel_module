@@ -1,0 +1,11 @@
+<?php
+
+namespace DummyNamespace;
+
+use Tyrans\Framework\Models\BaseModel;
+
+class DummyClass extends BaseModel {
+
+    protected $table = 'DummyTableNameProperty';
+
+}
